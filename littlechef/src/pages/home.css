@@ -1,0 +1,76 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titletext {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 4px;
+  }
+  .line{
+    border: 1px solid black;
+
+  }
+  .searchtitlebox {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+    margin-top: 20px; 
+  }
+  .searchtitle{
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+  }
+  .empty{
+    flex: 1;
+  }
+  
+  .belowtitle{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .searchbar input[type=text]{
+    width: auto;
+  }
+  .Submit {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-left: 0px; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+  }
+  
+  .Submit:hover {
+    background-color: #0056b3; 
+  } 
+  .recenttitlebox{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .recenttitle{
+    flex:1;
+    text-align: center;
+    font-weight: bold;
+  }
+  .recentempty{
+    flex:1;
+  }
+ 
